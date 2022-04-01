@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import {Parallax} from 'react-parallax';
+import {Row, Col} from "reactstrap";
+import "./Components.css";
 
 
 
@@ -8,11 +10,18 @@ function About() {
 
 
   <div>
-<Parallax bgImage={require("../photo.jpeg")} strength={500}>
+<Parallax bgImage={require("./wood.jpg")} strength={500}>
+            <div style={{ height: 800 }}>
+            </div>
+            <p>About </p>
+        </Parallax>
+
+        <Parallax bgImage={require("./sky.jpg")} strength={500}>
             <div style={{ height: 500 }}>
             </div>
-            <p>About Me</p>
+            <p></p>
         </Parallax>
+
 </div>
 
 

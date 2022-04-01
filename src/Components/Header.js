@@ -26,6 +26,9 @@ function Header() {
           </li>
 
       </ul>
+    {/* <a href="https://github.com/RCSchornick"><img src={require("./github.png")} style={{ height: 45, width: 35, paddingBottom: 10 }} alt="GitHub" /></a>
+    <br></br>
+    <a href="https://www.linkedin.com/in/rachel-claire-schornick-b10039234"><img src={require("./LinkedIn.png")} style={{ height: 38, width: 28, margin: 10, paddingBottom: 10 }} alt="LinkedIn" /></a> */}
 </div>
 
 

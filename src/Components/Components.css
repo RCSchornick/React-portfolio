@@ -26,6 +26,27 @@ li{
     text-transform: none;
 }
 
+.About{
+    font-family: "Courier";
+    font-size:45px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    bottom: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 3.9em;
+    animation: type 1s steps(10, end); 
+}
+
+
+.Project-Image-1{
+    width: 300px;
+
+}
+
+
 .Footer{
     height: 90px;    
     background-color: #394D6B;     
