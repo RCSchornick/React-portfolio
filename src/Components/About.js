@@ -15,6 +15,10 @@ function About() {
             </div>
             <p className="Introduction"> Hi, I'm Rachel-Claire!
             </p>
+            <div className='IntroPic'>
+            <img className="Intro-Image" src={require("./Style/img/Rachel Schornick.jpg")} alt="Photo"/>
+
+            </div>
             
         </Parallax>
 

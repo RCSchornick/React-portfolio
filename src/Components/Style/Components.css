@@ -15,7 +15,7 @@ li{
     color: white;    
     font-size: 30px;    
     padding-top: 30px;    
-    font-family: "Copperplate", Courier, monospace;
+    font-family: "Copperplate", Lucida Handwriting, monospace;
     font-size: 29px;
     letter-spacing: 2.2px;
     word-spacing: 2.4px;
@@ -27,11 +27,12 @@ li{
 }
 
 .Introduction{
+    position: absolute;
+    top: 400px;
+    left: 140px;
+    font-family: "Verdana", Lucida Handwriting, monospace;
     color: white;    
-    font-size: 55px;
-    float: center;       
-    font-family: "Copperplate", Courier, monospace;
-    font-size: 29px;
+    font-size: 40px;
     letter-spacing: 2.2px;
     word-spacing: 2.4px;
     font-weight: 700;
@@ -44,7 +45,7 @@ li{
     color: #394D6B;    
     font-size: 55px;
     float: center;       
-    font-family: "Copperplate", Courier, monospace;
+    font-family: "Copperplate", Lucida Handwriting, monospace;
     font-size: 29px;
     letter-spacing: 2.2px;
     word-spacing: 2.4px;
@@ -62,6 +63,22 @@ li{
     padding-top: 50px;
 
 }
+.Intro-Image{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 430px;
+    height:550px;
+    border: 3px solid #394D6B;
+}
+.Resume{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+    width: 1200px;
+    height: 2000px;
+    border: 3px solid #394D6B;
+}
 
 
 .Footer{
@@ -70,7 +87,7 @@ li{
     color: white;
     font-size: 30px;    
     padding-top: 30px;    
-    font-family: "Copperplate", Courier, monospace;
+    font-family: "Copperplate", Lucida Handwriting, monospace;
     font-size: 29px;
     letter-spacing: 2.2px;
     word-spacing: 2.4px;
