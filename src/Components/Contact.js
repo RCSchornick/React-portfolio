@@ -8,7 +8,7 @@ function Contact() {
 
 
   <div>
-<p>This is the Contact page</p>
+<p>Please put your resume here.</p>
 </div>
 
 

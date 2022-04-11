@@ -1,0 +1,82 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li{
+    padding: 20px;
+}
+
+.Header{
+    height: 90px;    
+    background-color: #394D6B;     
+    color: white;    
+    font-size: 30px;    
+    padding-top: 30px;    
+    font-family: "Copperplate", Courier, monospace;
+    font-size: 29px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.Introduction{
+    color: white;    
+    font-size: 55px;
+    float: center;       
+    font-family: "Copperplate", Courier, monospace;
+    font-size: 29px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.WhatIDo{
+    color: #394D6B;    
+    font-size: 55px;
+    float: center;       
+    font-family: "Copperplate", Courier, monospace;
+    font-size: 29px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+.Project-Image{
+    width: 350px;
+    height: 300px;
+    padding-top: 50px;
+
+}
+
+
+.Footer{
+    height: 90px;    
+    background-color: #394D6B;     
+    color: white;
+    font-size: 30px;    
+    padding-top: 30px;    
+    font-family: "Copperplate", Courier, monospace;
+    font-size: 29px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}

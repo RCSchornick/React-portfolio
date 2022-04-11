@@ -1,23 +1,32 @@
 import React, { useState } from 'react';
 import {Parallax} from 'react-parallax';
 import {Row, Col} from "reactstrap";
-import "./Components.css";
-
-
+import "./Style/Components.css";
+// import Reveal from "react-reveal/fadeIn";
+import {TextContainer} from "./Style/TextContainers.js";
 
 function About() {
   return (
 
 
   <div>
-<Parallax bgImage={require("./wood.jpg")} strength={500}>
-            <div style={{ height: 800 }}>
+<Parallax bgImage={require("./Style/img/wood.jpg")} strength={500}>
+            <div style={{ height: 685 }}>
             </div>
-            <p>About </p>
+            <p className="Introduction"> Hi, I'm Rachel-Claire!
+            </p>
+            
         </Parallax>
 
-        <Parallax bgImage={require("./sky.jpg")} strength={500}>
+        <Parallax bgImage={require("./Style/img/sky.jpg")} strength={500}>
             <div style={{ height: 500 }}>
+            <div className='WhatIDo'>
+                <p>I am a Full Stack Developer intent on creating practical solutions to front-end and back-end problems. My mission is to work with passionate individuals to tackle any challenge we may come across.</p>
+                <p>I can build websites, or work behind the scenes assembling data. Whatever the obstacle, I'm on it.</p>
+                <p>My goal is to create efficient applications that are visually pleasing. I love learning and am excited to jump into the next challenge.</p>
+                <p>Let's work together!</p>
+
+                </div>
             </div>
             <p></p>
         </Parallax>
@@ -27,4 +36,4 @@ function About() {
 
   );
 }
-export default About;
+export default (About);
