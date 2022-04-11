@@ -20,6 +20,11 @@ function Header() {
               </Link>
           </li>
           <li>
+              <Link activeClassName="active" isActive={()=> window.location.name === "/Resume"} to="/Resume">
+              Resume
+              </Link>
+          </li>
+          <li>
               <Link activeClassName="active" isActive={()=> window.location.name === "/Portfolio"} to="/Portfolio">
               Portfolio
               </Link>

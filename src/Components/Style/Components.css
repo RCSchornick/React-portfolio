@@ -56,6 +56,21 @@ li{
     text-transform: none;
 }
 
+.Contact{
+    position: absolute;
+    top: 160px;
+    left: 140px;
+    font-family: "Verdana", Lucida Handwriting, monospace;
+    color: navy;    
+    font-size: 35px;
+    letter-spacing: 2.2px;
+    word-spacing: 2.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
 
 .Project-Image{
     width: 350px;
