@@ -11,9 +11,9 @@ export function TextContainer(props) {
             >
             <div >
                 <div >
-                   <Reveal effect="fadeIn" duration={2000}>
+                   {/* <Reveal effect="fadeIn" duration={2000}> */}
                     <span style={{ fontSize: 20, color: "#0F1419",fontFamily:("Courier New", "Courier" )}}>{props.children}</span>
-                    </Reveal>
+                    {/* </Reveal> */}
                 </div>
             </div>
     </div> 
