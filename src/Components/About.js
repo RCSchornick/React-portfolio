@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import {Parallax} from 'react-parallax';
-import {Row, Col} from "reactstrap";
+// import {Row, Col} from "reactstrap";
 import "./Style/Components.css";
 // import Reveal from "react-reveal/fadeIn";
-import {TextContainer} from "./Style/TextContainers.js";
+// import {TextContainer} from "./Style/TextContainers.js";
 
 function About() {
   return (
